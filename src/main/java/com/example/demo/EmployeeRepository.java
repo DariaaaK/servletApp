@@ -6,18 +6,23 @@ import java.util.List;
 
 public class EmployeeRepository {
 
-    /*public static void main(String[] args) {
-        getConnection();
-
-        Employee employee = new Employee();
-
-        employee.setName("oleg");
-        employee.setEmail(" ");
-        employee.setCountry(" ");
-        save(employee);
-    }*/
+//    public static void main(String[] args) {
+//        getConnection();
+//
+//        Employee employee = new Employee();
+//
+//        employee.setName("oleg");
+//        employee.setEmail(" ");
+//        employee.setCountry(" ");
+//        save(employee);
+//    }
 
     public static Connection getConnection() {
+
+//        Connection connection = null;
+//        String url = "jdbc:mysql://localhost:3306/employee";
+//        String user = "root";
+//        String password = "rootadmin";
 
         Connection connection = null;
         String url = "jdbc:postgresql://localhost:5432/employee";
