@@ -17,11 +17,7 @@ public class UriRepository {
     }
 
     public static boolean checkUriMap(String uri){
-        if (uriMap.containsValue(uri)) {
-            return true;
-        }
-        return false;
-
+        return uriMap.containsValue(uri);
     }
 
 }
