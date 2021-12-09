@@ -6,6 +6,15 @@ public class Employee {
     private String name;
     private String country;
     private String email;
+    private boolean isDelete;
+
+    public boolean isDelete() {
+        return isDelete;
+    }
+
+    public void setDelete(boolean delete) {
+        isDelete = delete;
+    }
 
     public int getId() {
         return id;
