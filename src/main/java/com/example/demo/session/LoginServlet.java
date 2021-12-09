@@ -18,7 +18,7 @@ public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String log = request.getParameter("user");
-        String pwd = request.getParameter("password");
+        String pwd = request.getParameter("pwd");
         LoginRepository.initMapUser();
 
 
@@ -38,6 +38,7 @@ public class LoginServlet extends HttpServlet {
         }
     }
 }
+
 
 
 
