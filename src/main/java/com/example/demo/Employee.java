@@ -6,14 +6,14 @@ public class Employee {
     private String name;
     private String country;
     private String email;
-    private boolean isDelete;
+    private boolean status;
 
-    public boolean isDelete() {
-        return isDelete;
+    public boolean isStatus() {
+        return status;
     }
 
-    public void setDelete(boolean delete) {
-        isDelete = delete;
+    public void setStatus(boolean status) {
+        this.status = status;
     }
 
     public int getId() {
